@@ -34,6 +34,7 @@
                 if (inputValue.trim() !== "") {
                     var newParagraph = document.createElement("p");
                     newParagraph.textContent = inputValue + " : yapıldı";
+                    newParagraph.style.color = "Green";
 
                     newParagraph.onclick = function() {
                         this.remove();
@@ -53,6 +54,7 @@
                 if (inputValue.trim() !== "") {
                     var newParagraph = document.createElement("p");
                     newParagraph.textContent = inputValue + " : yapılmadı";
+                    newParagraph.style.color = "Red";
 
                     newParagraph.onclick = function() {
                         this.remove();
